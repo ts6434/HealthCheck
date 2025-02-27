@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f0e1; /* Beige Background */
+    color: #3c2a21; /* Dark brown text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #d6b597; /* Light Brown Background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4e2c1d;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+label, select, button {
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #4e2c1d;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #4e2c1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b3e2a;
+}

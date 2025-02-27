@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCheck - Symptom Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HealthCheck - Symptom Form</h1>
+        <form id="symptomForm">
+            <label for="gender">Select Gender:</label>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="symptom">Select Symptom:</label>
+            <select id="symptom" required>
+                <option value="Erectile Dysfunction">Erectile Dysfunction</option>
+                <option value="Frequent Urination">Frequent Urination</option>
+                <option value="Irregular Periods">Irregular Periods</option>
+                <option value="Pelvic Pain">Pelvic Pain</option>
+                <option value="Coughing">Coughing</option>
+                <option value="Fever">Fever</option>
+                <option value="Fatigue">Fatigue</option>
+                <option value="Headache">Headache</option>
+                <option value="Abdominal Pain">Abdominal Pain</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
